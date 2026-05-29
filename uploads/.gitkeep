@@ -1,0 +1,7 @@
+<?php
+/**
+ * Make uploads directory if it doesn't exist
+ */
+@mkdir('uploads/projects', 0755, true);
+@mkdir('uploads/testimonials', 0755, true);
+@mkdir('logs', 0755, true);
